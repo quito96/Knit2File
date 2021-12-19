@@ -1,4 +1,4 @@
-Package: Knit2DateName
+Package: Knit2File       
 Title: Add Date to Knit Doc
 Version: 0.0.1.5
 Authors@R: 
