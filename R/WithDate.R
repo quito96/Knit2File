@@ -7,6 +7,7 @@
 #' @param ... comes from knit (Nothinhg to do)
 #' @return
 #' @export
+#'
 
 
 WithDateHTML <- function(input, ...) {
