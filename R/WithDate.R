@@ -1,7 +1,8 @@
-#' Add System Date to knit File Name
-#' @author quito96
-#' @note Add to yaml Header from RMD Report:
+#' The knit files are saved in knit2file folder.
+#' @title Adds the system date to the RMD file name.
+#' @details Add to yaml Header from RMD Report:
 #' knit: Knit2File::WithDateHTML
+#' @author quito96
 #' @param input comes from knit (Nothinhg to do)
 #' @param ... comes from knit (Nothinhg to do)
 #' @return

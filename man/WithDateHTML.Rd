@@ -2,7 +2,7 @@
 % Please edit documentation in R/WithDate.R
 \name{WithDateHTML}
 \alias{WithDateHTML}
-\title{Add System Date to knit File Name}
+\title{Adds the system date to the RMD file name.}
 \usage{
 WithDateHTML(input, ...)
 }
@@ -15,9 +15,9 @@ WithDateHTML(input, ...)
 
 }
 \description{
-Add System Date to knit File Name
+The knit files are saved in knit2file folder.
 }
-\note{
+\details{
 Add to yaml Header from RMD Report:
 knit: Knit2File::WithDateHTML
 }
