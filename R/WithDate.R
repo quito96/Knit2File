@@ -11,10 +11,10 @@
 WithDateHTML <- function(input, ...) {
         rmarkdown::render(
                 input,
+                output_dir = "~/knit2file/",
                 output_file = paste0(
                         xfun::sans_ext(input), '_', Sys.Date(), '_',
-                        xfun::file_ext("html_document"),
-                        output_dir = "~/knit2file/"
+                        xfun::file_ext("html_document")
                 ),
                 envir = globalenv()
         )
