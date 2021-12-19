@@ -13,7 +13,8 @@ WithDateHTML <- function(input, ...) {
                 input,
                 output_file = paste0(
                         xfun::sans_ext(input), '_', Sys.Date(), '_',
-                        xfun::file_ext("html_document")
+                        xfun::file_ext("html_document"),
+                        output_dir = "~/knit2file/"
                 ),
                 envir = globalenv()
         )

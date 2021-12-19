@@ -1,6 +1,6 @@
 Package: Knit2File       
 Title: Add Date to Knit Doc
-Version: 0.0.1.7
+Version: 0.0.1.8
 Authors@R: 
     person("", "Quito96", , "guma96@t-online.de", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
