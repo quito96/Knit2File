@@ -1,9 +1,12 @@
-#' Custom Knit function for RStudio
 #' Add System Date to knit File Name
-#' @param input only knit
-#' @param ... only knit
+#' @author quito96
+#' @note Add to yaml Header from RMD Report:
+#' knit: Knit2File::WithDateHTML
+#' @param input comes from knit (Nothinhg to do)
+#' @param ... comes from knit (Nothinhg to do)
 #' @return
 #' @export
+
 
 WithDateHTML <- function(input, ...) {
         rmarkdown::render(

@@ -2,20 +2,25 @@
 % Please edit documentation in R/WithDate.R
 \name{WithDateHTML}
 \alias{WithDateHTML}
-\title{Custom Knit function for RStudio
-Add System Date to knit File Name}
+\title{Add System Date to knit File Name}
 \usage{
 WithDateHTML(input, ...)
 }
 \arguments{
-\item{input}{only knit}
+\item{input}{comes from knit (Nothinhg to do)}
 
-\item{...}{only knit}
+\item{...}{comes from knit (Nothinhg to do)}
 }
 \value{
 
 }
 \description{
-Custom Knit function for RStudio
 Add System Date to knit File Name
+}
+\note{
+Add to yaml Header from RMD Report:
+knit: Knit2File::WithDateHTML
+}
+\author{
+quito96
 }
